@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!-- NOMBRE -->
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
@@ -15,6 +16,7 @@
         android:inputType="textPersonName"
         android:text="Name" />
 
+    <!-- EMAIL -->
     <EditText
         android:id="@+id/editText2"
         android:layout_width="match_parent"
@@ -22,6 +24,7 @@
         android:ems="10"
         android:inputType="textEmailAddress" />
 
+    <!-- CONTRASEÑA -->
     <EditText
         android:id="@+id/editText3"
         android:layout_width="match_parent"
@@ -29,6 +32,7 @@
         android:ems="10"
         android:inputType="textPassword" />
 
+    <!-- NUM. DE TLF -->
     <EditText
         android:id="@+id/editText4"
         android:layout_width="match_parent"
@@ -36,6 +40,7 @@
         android:ems="10"
         android:inputType="phone" />
 
+    <!-- FECHA -->
     <EditText
         android:id="@+id/editText5"
         android:layout_width="match_parent"
@@ -43,19 +48,13 @@
         android:ems="10"
         android:inputType="date" />
 
-    <EditText
-        android:id="@+id/editText6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberSigned" />
-
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:text="ToggleButton" />
+
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="match_parent"
@@ -63,7 +62,7 @@
         android:layout_margin="20dp"
         android:layout_weight="0.5"
         android:gravity="center"
-        android:text="Guardar automáticament"
+        android:text="Guardar automáticamente"
         android:textSize="9pt" />
     <SeekBar
         android:id="@+id/seekBar"
